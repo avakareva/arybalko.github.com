@@ -26,6 +26,9 @@
     padding: 10px;
     text-align: left;
     width: 280px;
+    display: inline-block;
+    left: 35em;
+    top: 50px;
 }
 
 #content{
@@ -38,7 +41,7 @@
 
 .submenu li{
 	display:block;
-}
+	}
 
 .menu li a{
 	color: white;
@@ -58,8 +61,8 @@ li .submenu{
 
 li:hover .submenu{
 	display:block;
-	margin-left: 750px;
 }
+
 
 ul{
 	list-style-type: none;
