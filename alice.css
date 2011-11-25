@@ -1,76 +1,33 @@
-.menu {
-	display: inline-block;
-	border-radius: 20px 20px;
-	background:  rgba(65, 105, 225, 0.7);
-	box-shadow: 0 0 10px rgba(0,0,0,0.5); 
-    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); 
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); 
-	width: 80%;
-	padding: 20px;
-	position: fixed;
-	margin-top: -300px;
-	margin-left: 10%;
-	margin-right: 10%;
-
-	font-family: arial; 
-	color: white;
-	text-align: center;
-}
-
-.submenu{
+.icon-block{
+	background: #99FF66;
+	height: 300px;
+	width: 40px;
 	
-	background:  rgba(255, 186,	0, 0.7);
-	border-radius: 0 0 20px 20px;
-	line-height: 2em;
-    position: absolute;
-    padding: 10px;
-    text-align: left;
-    width: 280px;
-    display: inline-block;
-    left: 750px;
-    top: 50px;
+	float: left;
+	border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px;
 }
 
-#content{
-	font-weight: bold;
+.icon{
+	float: right;
+	padding: 5px;
 }
 
-.menu li {
-	display: inline;
-}
-
-.submenu li{
-	display:block;
+.quote-block{
+	width: 550px;
+	height: 300px;
+	background: #FFFF66;
+	padding-left: 10px;
+	font-size: 2em;
+	font-family:"Comic Sans MS";
+	border-top-right-radius: 15px; 
+    border-bottom-right-radius: 15px;
+	box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
 	}
-
-.menu li a{
-	color: white;
-	padding: 20px;
+	
+.quote-block:after{
+	content: attr(data-author);
+	float: right;
+	padding-right: 15px;
+	font-style: italic;
 }
-
-.submenu li a{
-	color:black;
-}
-
-
-li .submenu{
-	display: none;
-
-}
-
-
-li:hover .submenu{
-	display:block;
-}
-
-
-ul{
-	list-style-type: none;
-
-}
-
-
-
-
-
-
