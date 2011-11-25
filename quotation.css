@@ -1,0 +1,34 @@
+﻿.icon-block{
+	background: #99FF66;
+	height: 300px;
+	width: 40px;
+	
+	float: left;
+	border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px;
+}
+
+.icon{
+	float: right;
+	padding: 5px;
+}
+
+.quote-block{
+	width: 550px;
+	height: 300px;
+	background: #FFFF66;
+	padding-left: 10px;
+	font-size: 2em;
+	font-family:"Comic Sans MS";
+	border-top-right-radius: 15px; 
+    border-bottom-right-radius: 15px;
+	box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+	}
+	
+.quote-block:after{
+	content: attr(data-author);
+	float: right;
+	padding-right: 15px;
+	font-style: italic;
+}
+
